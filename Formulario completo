@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> Formulario Completo </title>
+</head>
+<body>
+<form method="POST" action="http://formadorestic.com/alumnosdaw/procesaformulario.php">
+    Nombre: <input placeholder="Introduce tu nombre" type="text" id="nombre" name="nombre"><br>
+        <label for="nombre"></label><br>
+
+    Edad: <input placeholder="Introduce tu edad" type="number" id="nombre" name="edad"><br> 
+        <label for="edad"></label><br>
+
+    Inserta tu email:<input placeholder="Introduce tu email" type="email" id="email"         name="email"><br>
+        <label for="email"></label><br>
+    Mayoria de edad: <br><input type="radio" id="Si" name="mayormenor" value="Si">
+        <label for="Si">Si</label><br>
+    Mayoria de edad: <br><input type="radio" id="No" name="mayormenor" value="No">
+        <label for="No">No</label><br>
+    <input type="submit" value="Enviar"/>
+</form>
+</body>
+</html>
